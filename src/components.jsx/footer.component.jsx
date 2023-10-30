@@ -1,7 +1,13 @@
 import { FaLocationArrow } from "react-icons/fa";
-import {BiLeftArrow} from "react-icons/bi";
-import {BiRightArrow} from "react-icons/bi";
-const Footer = () => {
+import { BiLeftArrow } from "react-icons/bi";
+import { BiRightArrow } from "react-icons/bi";
+const Footer = ({prevSlide, nextSlide}) => {
+  const prevHandler = () => {
+    prevSlide();
+  };
+  const nextHandler = () => {
+    nextSlide();
+  };
   return (
     <>
       <div className="flex items-center w-[90%] mx-auto">
@@ -12,8 +18,8 @@ const Footer = () => {
           </span>
         </div>
         <div className="flex items-center ml-[20rem] gap-[1rem] cursor-pointer">
-          <BiLeftArrow />
-          <BiRightArrow />
+          <BiLeftArrow onClick={prevHandler} />
+          <BiRightArrow onClick={nextHandler} />
         </div>
       </div>
     </>
