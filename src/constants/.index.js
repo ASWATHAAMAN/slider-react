@@ -1,5 +1,6 @@
 const Data = [
   {
+    id:1,
     title: `Switzrerland Apls`,
     h2: `SAINT ANTONEN`,
     text: `The journey to machu picchu typically starts in the mountain city of Cusco, which was the capital city of the Inca Empire`,
@@ -18,6 +19,7 @@ const Data = [
     bgOneImg: `https://images.unsplash.com/photo-1575408264798-b50b252663e6?auto=format&fit=crop&q=80&w=1953&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
   },
   {
+    id:2,
     title: `Arizona`,
     h2: `The Grand Canyon`,
     text: `The earth's geological history opens before your eyes in a mile-deep chasm`,
@@ -36,6 +38,7 @@ const Data = [
     bgOneImg: `https://images.unsplash.com/photo-1682687221323-6ce2dbc803ab?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8`,
   },
   {
+    id:3,
     title: `kenya`,
     h2: `Masai Mara`,
     text: `Wild animals in their natural environment,luxury safari lodges`,
@@ -54,6 +57,7 @@ const Data = [
     bgOneImg: `https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8a2VueWElMjBwbGFjZXxlbnwwfHwwfHx8MA%3D%3D`,
   },
   {
+    id:4,
     title: `Cambodia`,
     h2: `Angkor Wat`,
     text: `A stunning ancient jungle city with the hundreds of intricately constructed temples`,
@@ -72,6 +76,7 @@ const Data = [
     bgOneImg: `https://media.istockphoto.com/id/158834264/photo/bird-view-of-angkor-wat.webp?s=1024x1024&w=is&k=20&c=f3o8tgff8_W-CJlPXwK7vT9Wyl0Ib6P_hCVG2DUeM6s=`,
   },
   {
+    id:5,
     title: `Indonesia`,
     h2: `Bali`,
     text: `Tropical beaches, volcano hikes, ancient temples, and friendly people`,

@@ -7,6 +7,7 @@ const App = () => {
   const [index, setIndex] = useState(0);
   const slides = data[index];
   const prevSlide = (slide) => {
+    console.log(slide);
     const lastIndex = data.length - 1;
     if(index === 0){
       setIndex(lastIndex)
@@ -22,12 +23,13 @@ const App = () => {
     }
     setIndex(slide + 1)
   };
+  console.log(index);
   return (
     <>
       <main>
         <Header />
         <Hero slides={slides} />
-        <Footer prevSlide={prevSlide} nextSlide={nextSlide} />
+        <Footer prevSlide={prevSlide} nextSlide={nextSlide}index={index} />
       </main>
     </>
   );

@@ -1,12 +1,13 @@
 import { FaLocationArrow } from "react-icons/fa";
+import { Data } from "../constants/.index";
 import { BiLeftArrow } from "react-icons/bi";
 import { BiRightArrow } from "react-icons/bi";
-const Footer = ({prevSlide, nextSlide}) => {
+const Footer = ({prevSlide, nextSlide,index}) => {
   const prevHandler = () => {
-    prevSlide();
+    prevSlide(index);
   };
   const nextHandler = () => {
-    nextSlide();
+    nextSlide(index);
   };
   return (
     <>

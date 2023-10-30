@@ -1,4 +1,5 @@
 const Hero = ({ slides }) => {
+  console.log(slides);
   const {
     title,
     h2,
