@@ -10,10 +10,10 @@ const Footer = ({prevSlide, nextSlide}) => {
   };
   return (
     <>
-      <div className="flex items-center w-[90%] mx-auto">
-        <div className=" mt-[1rem] flex items-center gap-[1rem] cursor-pointer">
+      <div className="flex items-center px-[4rem] text-white mx-auto h-14 bg-gradient-to-r from-cyan-500 to-blue-500">
+        <div className=" mt-[1rem] mb-[1rem] flex items-center gap-[1rem] cursor-pointer">
           <FaLocationArrow />
-          <span className="px-[1rem] py-[0.5rem] border-2 rounded-3xl text-[12px] font-[700]">
+          <span className="px-[1rem] py-[0.5rem] border-2 rounded-3xl text-[12px] font-[700] hover:bg-black text-white">
             DISCOVER LOCATION
           </span>
         </div>

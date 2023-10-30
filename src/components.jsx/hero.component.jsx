@@ -15,11 +15,13 @@ const Hero = ({ slides }) => {
     imgFour,
     imgFourText,
     imgFourWord,
+    bgOneImg
   } = slides;
   return (
     <>
-      <main className="w-[90%] mx-auto mt-[5rem] flex gap-[8rem]">
-        <div className="flex flex-col ">
+    <div><img src={bgOneImg} className="relative h-[30rem] w-full" alt="" /></div>
+      <main className="w-[90%] mx-auto ml-[4rem] mt-[3rem] flex gap-[8rem] absolute top-[5rem] left-0 text-white">
+        <div className="flex flex-col w-[55%] ">
           <div className="border-t-[6px] border-black w-[2%] rounded-md mb-[10px]"></div>
           <h1 className="font-[700] text-[18px]">{title}</h1>
           <h2 className="text-[80px] w-[20%] font-[900] font-sans leading-[5.5rem]">
@@ -43,7 +45,7 @@ const Hero = ({ slides }) => {
           <span className="absolute top-[15rem] font-[700] text-white left-[14rem]">
             {imgTwoText}
           </span>
-          <span className="absolute top-[16.3rem] font-[800] text-[15px] text-white left-[14rem]">
+          <span className="absolute top-[16rem] font-[800] text-[15px] text-white left-[14rem]">
             {imgTwoWord}
           </span>
           <div className="border-t-[6px] border-white w-[10%] rounded-md mb-[10px] absolute top-[14.5rem] left-[25rem] "></div>

@@ -5,7 +5,7 @@ import { BiSolidUser } from "react-icons/bi";
 const Header = () => {
   return (
     <>
-      <nav className="flex gap-[1rem] mx-auto w-[90%] justify-between mt-[1rem] font-[600] ">
+      <nav className="flex gap-[1rem] mx-auto  justify-between px-[4rem] text-white font-[600] h-14 bg-gradient-to-r from-cyan-500 to-blue-500">
         <div className="flex items-center gap-[1rem] font-mono ">
           <BsGlobe2 />
           <h2>TRUST ME</h2>
